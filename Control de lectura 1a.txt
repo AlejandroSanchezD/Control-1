@@ -1,0 +1,32 @@
+Estimado ingeniero buena noche.
+En primer lugar debemos crear una cuenta en GitHub,
+crear un repositorio en el mismo con su nombre, descripción
+y en forma pública.
+Luego descargamos e instalamos Git para lograr abrir la consola de Git 
+y comprobar que esta correctamente instalado.
+Para configurar Git nos ubicamos en la carpeta en la que trabajaremos
+y presionamos Open Git Bash para abrir la consola.
+Observamos que se encuentre creada una carpeta transparente donde
+se encontrará toda la información de Git.
+Ubicamos los siguientes códigos para configurarlo:
+* git config user.name "nombre de usuario de GitHub"
+* git config user.email "mail@gmail.com"
+Para iniciar la comunicación entre el repositorio local que encontramos
+en la carpeta con el remoto creado en GitHub usamos:
+git remote add origin "url del repositorio remoto" (que la encontramos en "Code"
+en GitHub)
+Finalmente realizaremos el push y subir los códigos a Git Hub de la siguiente
+manera:
+Con el archivo que queramos subir creado, usamos el siguiente comando:
+* git status (para conocer el estado del archivo que deseamos subir)
+* git add "nombre del archivo.(txt,html,etc)"
+* git commit -m "mensaje de confirmación" (confirmamos agregar un archivo
+definitivamente al repositorio remoto)
+* git pus -u origin master (master en mi caso es la rama principal)
+* Es posible que solicite validar la cuenta y se lo hace a través del browser
+* Verificamos en la línea de comandos la información correcta, número de objetos
+realizados, etc.
+Verificamos el repositorio actualizándolo para identificar que los archivos se
+encuentran ya subidos en GitHub.
+Saludos cordiales
+
